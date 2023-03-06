@@ -1,24 +1,31 @@
 body {
-    font-family: 'Nanum Pen Script', cursive, "Inter", sans-serif;
-    font-size: 26px;
-    background-image:url(images/cutecartoonrainbow.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
+  font-family: "Nanum Pen Script", cursive, "Inter", sans-serif;
+  font-size: 26px;
+  background-image: url(images/rainbowsbackground.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Permanent Marker', cursive, sans-serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Permanent Marker", cursive, sans-serif;
 }
 
 ul {
-    display:flex;
-    list-style: none;
-    margin: 0;
-    justify-content:space-around;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  justify-content: space-around;
 }
 
 .foodpics {
-    height: 200px;
-    width: 200px;
+  height: 200px;
+  width: 200px;
+}
+
+.music {
+  border: 0;
 }
