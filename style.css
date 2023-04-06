@@ -5,6 +5,8 @@
   font-size: 30px;
   line-height: 30px;
   background-color: lightslategrey;
+
+  /*choose a cool font with Delani*/
 }
 
 .header {
@@ -13,7 +15,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: pink;
+  background-color: pink; /* add opacity to all title background color using rgba matching this color */
 }
 
 .header__h1 {
@@ -29,8 +31,8 @@
 }
 
 .section__title {
-  padding: 49px 500px;
-  background-color: pink;
+  padding: 49px 200px;
+  background-color: pink; 
 }
 
 .foods {
