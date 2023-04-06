@@ -1,31 +1,71 @@
-body {
-  font-family: "Nanum Pen Script", cursive, "Inter", sans-serif;
-  font-size: 26px;
-  background-image: url(images/rainbowsbackground.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-size: 30px;
+  line-height: 30px;
+  background-color: lightslategrey;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  font-family: "Permanent Marker", cursive, sans-serif;
-}
-
-ul {
+.header {
+  margin: 28px;
+  padding: 40px;
   display: flex;
-  list-style: none;
-  margin: 0;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  background-color: pink;
 }
 
-.foodpics {
-  height: 200px;
-  width: 200px;
+.header__h1 {
+  font-size: 55px;
+  line-spacing: 25px;
+  margin: 0 auto;
+  padding-bottom: 30px;
 }
 
-.music {
-  border: 0;
+.header__paragraph {
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+.section__title {
+  padding: 49px 500px;
+  background-color: pink;
+}
+
+.foods {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.people {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stuffies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.animals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 0.1fr);
+  grid-template-rows: 250px min-content 1;
+  grid-gap: 90px;
+}
+
+.grid-item img {
+  width: 250px;
+  height: 250px;
 }
