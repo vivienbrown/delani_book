@@ -4,18 +4,19 @@
   margin: 0 auto;
   font-size: 30px;
   line-height: 30px;
-  background-color: lightslategrey;
+  background-color: white;
+  background-image: linear-gradient(red, orange, yellow, green,blue, indigo, violet);
 
   /*choose a cool font with Delani*/
 }
 
 .header {
-  margin: 28px;
+  margin: 0;
   padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: pink; /* add opacity to all title background color using rgba matching this color */
+  background-color: linear-gradient(rgb(255, 0, 234), rgba(255, 0, 234, 0.1)); 
 }
 
 .header__h1 {
@@ -32,7 +33,7 @@
 
 .section__title {
   padding: 49px 200px;
-  background-color: pink; 
+  background-color: rgba(245, 224, 243, 0.2); ; 
 }
 
 .foods {
