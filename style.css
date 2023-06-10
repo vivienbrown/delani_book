@@ -4,7 +4,8 @@
   margin: 0 auto;
   font-size: 30px;
   line-height: 30px;
-  background-color: white;
+  background-color: #000;
+  color: #fff;
   background-image: linear-gradient(red, orange, yellow, green,blue, indigo, violet);
 
   /*choose a cool font with Delani*/
@@ -17,23 +18,32 @@
   flex-direction: column;
   justify-content: center;
   background-color: linear-gradient(rgb(255, 0, 234), rgba(255, 0, 234, 0.1)); 
+ 
 }
 
 .header__h1 {
-  font-size: 55px;
+  font-size: 78px;
   line-spacing: 25px;
   margin: 0 auto;
   padding-bottom: 30px;
+  font-family: "Cherry Bomb One", sans-serif;
 }
 
 .header__paragraph {
   margin: 0 auto;
   font-size: 30px;
+  font-family: "Reenie Beanie", sans-serif;
 }
 
 .section__title {
   padding: 49px 200px;
-  background-color: rgba(245, 224, 243, 0.2); ; 
+  background-color: rgba(27, 14, 26, 0.2);
+  font-family: "Cherry Bomb One", sans-serif;
+  border-radius: 30%;
+}
+
+.section__paragraph {
+  font-family: "Reenie Beanie", sans-serif;
 }
 
 .foods {
@@ -71,4 +81,5 @@
 .grid-item img {
   width: 250px;
   height: 250px;
+  border-radius: 35%;
 }
