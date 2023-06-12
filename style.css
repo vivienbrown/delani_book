@@ -6,7 +6,15 @@
   line-height: 30px;
   background-color: #000;
   color: #fff;
-  background-image: linear-gradient(red, orange, yellow, green,blue, indigo, violet);
+  background-image: linear-gradient(
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
 
   /*choose a cool font with Delani*/
 }
@@ -17,8 +25,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: linear-gradient(rgb(255, 0, 234), rgba(255, 0, 234, 0.1)); 
- 
+  background-color: linear-gradient(rgb(255, 0, 234), rgba(255, 0, 234, 0.1));
 }
 
 .header__h1 {
@@ -27,23 +34,27 @@
   margin: 0 auto;
   padding-bottom: 30px;
   font-family: "Cherry Bomb One", sans-serif;
+  font-size: 78px;
 }
 
 .header__paragraph {
   margin: 0 auto;
   font-size: 30px;
-  font-family: "Reenie Beanie", sans-serif;
+  font-family: "Architects Daughter", sans-serif;
 }
 
 .section__title {
-  padding: 49px 200px;
   background-color: rgba(27, 14, 26, 0.2);
   font-family: "Cherry Bomb One", sans-serif;
   border-radius: 30%;
+  font-size: 50px;
 }
 
 .section__paragraph {
-  font-family: "Reenie Beanie", sans-serif;
+  font-family: "Architects Daughter", sans-serif;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 30px;
 }
 
 .foods {
@@ -82,4 +93,12 @@
   width: 250px;
   height: 250px;
   border-radius: 35%;
+}
+
+.footer {
+  margin: 0 auto;
+  padding: 0;
+  border: 20px;
+  font-size: 20px;
+  font-family: "Cherry Bomb One", sans-serif;
 }
